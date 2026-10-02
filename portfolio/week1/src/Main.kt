@@ -1,7 +1,7 @@
 import kotlin.math.sqrt
 fun main(args: Array<String>){
         if(args.size<3){
-            println("error")
+            println("Error: values for a, b, c required on command line")
             return System.exit(1)
         }
     var a = args[0].toDouble()
