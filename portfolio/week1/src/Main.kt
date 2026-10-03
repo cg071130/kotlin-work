@@ -9,5 +9,5 @@ fun main(args: Array<String>){
     var c = args[2].toDouble()
     val s = (a+b+c)/2.0
     val Area = sqrt(s*(s-a)*(s-b)*(s-c))
-    println("Area=%.5f".format(area))
+    println("Area=%.5f".format(Area))
 }
